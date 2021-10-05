@@ -1,0 +1,26 @@
+github
+git init
+git status
+git add .
+git status  
+
+
+git commit -m "Mensaje"
+git remote add origin https://github.com/carol-rios/ADSI-2067725cx.git
+git push -u origin master
+
+tag par github
+git tag
+git tag -a v1.0.0 -m "proyecto semilla"
+git tag
+git push --tags
+
+ heroku
+    instalar clith
+    heroku -v
+    heroku login  //una sola vez por maquina
+
+    heroku git:remote -a repo-heroku
+    
+    git push heroku master  //actualiza cada vez que tenemos un cambio
+    heroku open
